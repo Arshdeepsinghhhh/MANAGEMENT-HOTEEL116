@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Hotel Management</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Canada Hotel Booking">
+  <meta name="keywords" content="Luxury Rooms, Fitness Centre">
+  <meta name="author" content="Amazing Hotel">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-image: url(img/slider1.jpg);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+	
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  
+  .custom-bg { 
+    background-color: #fff; /* Dark Blue */
+    color: #000;
+  }
+  
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button><a class="navbar-brand" href="#"><img src="img/logo.jpg" height="80" style="margin-top:0px;position:relative;top:-30px;"></a><a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid padding_top_0 text-center">
+<div class="row">
+<div class="col-md-12">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184531.19311755014!2d-79.89963001387076!3d43.72509658407821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b15eaa5d05abf%3A0x352d31667cc38677!2sBrampton%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sin!4v1605761193958!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+ 
+</div>
+</div>
+</div>
+
+<div class="container-fluid padding_top_0 text-center">
+<div class="row">
+<div class="col-md-12">
+<div class="col-md-4">
+ <form action="" method="POST">
+ <div class="form-group">
+    <label class="control-label col-sm-2" for="name">Name:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+    </div>
+  </div>
+ 
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+    </div>
+  </div>
+  
+   <div class="form-group">
+    <label class="control-label col-sm-2" for="subject">Subject:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+    </div>
+  </div>
+  
+   <div class="form-group">
+    <label class="control-label col-sm-2" for="message">Message:</label>
+    <div class="col-sm-10">
+      <textarea class="form-control" id="message" placeholder="Enter message" required></textarea>
+    </div>
+  </div>
+  
+   <div class="form-group">
+   
+    <div class="col-sm-6">
+     <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+ 
+ 
+</div>
+
+<div class="col-md-4 contact-div">
+<h3>Company Info</h3>
+<h5><strong>Hotel Management Inc.</strong></h5>
+
+<p>12345 Brampton, Street 125<br>
+Canada 0000<br>
+Ph: (123) 456-7890</p>
+</div>
+
+<div class="col-md-4 contact-div">
+<h3>Opening Hours</h3>
+<h5><strong>Lunch Service</strong></h5>
+
+<p>Monday - Sunday:
+ 12pm - 1.30pm</p>
+ <h5><strong>Dinner Service</strong></h5>
+ <p>Monday - Sunday: 6Pm - 9:30Pm</p>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid custom-container bg-4 text-center">
+  <div class="row">
+  <div class="col-md-6">
+  <p>&copy; 2020 Hotel Management. Developed By: Amazing Hotel</p>
+  </div>
+  
+  
+  <div class="col-md-6">
+  <ul>
+  <li><i class="fa fa-facebook-official"></i></li>
+  <li><i class="fa fa-twitter-square"></i></li>
+  <li><i class="fa fa-google-plus-square"></i></li>
+  </ul>
+  </div>
+  </div>
+</footer>
+
+</body>
+</html>
